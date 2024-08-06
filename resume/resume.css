@@ -1,15 +1,100 @@
 body {
-	background-color: white;
+    max-width: 960px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
 	background-image: url("current.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: black;
-	font-family: Copperplate, fantasy;
+	color: rgb(187, 187, 187);
+	/* font-family: Copperplate, fantasy; */
 	/* font-family: Helvetica, Verdana, Arial, sans-serif */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    line-height: 1.4;
+
 }
+
+h1 {
+    font-size: 1.8em
+}
+h2 { 
+    font-size: 1.2em
+}
+h3 {
+    font-size: 1.1em
+}
+h4 {
+    font-size: 1em
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+a:link {
+    color: rgb(104, 132, 146)
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+.row {
+    background-color: rgba(0, 0, 0, 0.88);
+    padding: 1em;
+}
+
+.column_left {
+    float: left;
+    padding: 1em;
+    max-width: 30%;
+}
+
+.column_right {
+    float: left;
+    padding: 1em;
+    max-width: 60%;
+}
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
 .contact {
     text-align: center;
+    padding-bottom: 1em;
+}
+
+.summary {
+    padding-bottom: 2em;
+}
+
+.employment {
+}
+
+.skills {
+    padding-bottom: 2em;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.skills li {
+    margin: none;
+}
+
+.education {
 }
