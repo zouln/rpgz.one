@@ -12,11 +12,12 @@ body {
 	/* font-family: Helvetica, Verdana, Arial, sans-serif */
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 h1 {
     font-size: 1.8em;
+    margin: 0;
     padding: 1rem;
 }
 h2 { 
@@ -27,7 +28,6 @@ h3 {
 }
 h4 {
     font-size: 1em;
-    margin-top: 1em;
 }
 
 h1, h2 {
@@ -36,7 +36,6 @@ h1, h2 {
 
 h3, h4 {
     margin: 0;
-    margin-top: 4px;
     padding: 0;
 }
 
