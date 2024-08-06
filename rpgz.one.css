@@ -6,7 +6,8 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	color: white;
-	font-family: "Coperplate", fantasy;
+	/* font-family: "Coperplate", fantasy; */
+	font-family: Helvetica, Verdana, Arial, sans-serif
 }
 
 h1 { 
