@@ -1,16 +1,16 @@
 body {
-	background-color: black;
+	background-color: white;
 	background-image: url("current.jpg");
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	color: white;
-	/* font-family: "Coperplate", fantasy; */
-	font-family: Helvetica, Verdana, Arial, sans-serif
+	color: black;
+	font-family: Coperplate, fantasy;
+	/* font-family: Helvetica, Verdana, Arial, sans-serif */
 }
 
 h1 { 
-	color: white;
+	color: black;
 }
 
