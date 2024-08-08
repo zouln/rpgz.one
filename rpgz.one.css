@@ -1,5 +1,5 @@
 body {
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 	background-image: url("current.jpg");
 	background-size: cover;
 	background-position: center;
@@ -8,9 +8,42 @@ body {
 	color: black;
 	font-family: Coperplate, fantasy;
 	/* font-family: Helvetica, Verdana, Arial, sans-serif */
+	max-width: 960px;
+	margin: auto;
 }
 
 h1 { 
 	color: black;
 }
 
+#dnd {
+	background-image: url('images/dadmom.png');
+}
+
+#resume {
+	background-image: url('images/resume.png');
+}
+
+#artwork {
+	background-image: url('images/toz-thumb.jpeg');
+}
+
+.linkblock {
+	background-size: cover;
+	width: 300;
+	height: 200;
+	background-color: gray;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.caption {
+	margin-top: auto;
+	background-color: rgba(0, 0, 0, 0.659);
+	color: white
+}
