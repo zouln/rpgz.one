@@ -8,7 +8,7 @@ body {
 	color: black;
 	font-family: Coperplate, fantasy;
 	/* font-family: Helvetica, Verdana, Arial, sans-serif */
-	max-width: 960px;
+	width: 960px;
 	margin: auto;
 }
 
@@ -45,19 +45,20 @@ h1 {
 
 .blockcontainer {
 	margin: auto;
+	padding: 0.5em;
 	display: inline-block;
 }
 
 #middle .linkblock {
 	background-size: cover;
-	width: 300;
-	height: 200;
+	width: 300px;
+	height: 200px;
 	background-color: gray;
 	float: left;
-	margin-top: 0.5em;
-	margin-right: 0.5em;
-	margin-left: 0.5em;
-	margin-bottom: 0.5em;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
